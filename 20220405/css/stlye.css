@@ -95,7 +95,7 @@
 
 header {
   width: inherit;
-  height: 10%;
+  height: 9%;
 
   background-color: aqua;
 }
@@ -109,8 +109,46 @@ header {
 
 main {
   width: inherit;
-  height: 75%;
+  height: 78%;
 
   background-color: #f0f0f0;
 }
 
+.top {
+  width: inherit;
+  height: 20%;
+
+  border: 1px solid salmon;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.top > ul {
+  width: 400%;
+  height: 60%;
+
+  background-color: #ff85db;
+
+  position: absolute;
+  left: 26px;
+}
+
+.top > ul > li {
+  list-style: none;
+
+  width: 64px;
+  height: 64px;
+
+  background-color: rgb(188, 152, 255);
+  border-radius: 100px;
+
+  margin-right: 18px;
+}
+
+.bottom {
+  width: inherit;
+  height: 80%;
+
+  border: 1px solid red;
+}
