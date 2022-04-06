@@ -289,10 +289,15 @@ main {
   width: 24%;
   height: 86%;
 
-  background-color: var(--color-yes);
-
   border-radius: 5px;
   font-size: 24px;
   color: #f1f1f1
 }
 
+.yes-kid {
+  background-color: var(--color-yes);
+}
+
+.not-kid { 
+  background-color: var(--color-not);
+}
