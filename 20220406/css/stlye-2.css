@@ -1,0 +1,303 @@
+:root {
+  --color-yes: #00E075;
+  --color-not: #646464;
+}
+
+/* -----------variable---------- */
+
+.d-flex {
+  display: flex;
+}
+
+.middle-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-top {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.middle-bottom {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.left-center {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left-top {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.left-bottom {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.right-center {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right-top {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.right-bottom {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-re {
+  flex-direction: row-reverse
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-column-re {
+  flex-direction: column-reverse;
+}
+
+/* —----------css-------------- */
+
+* {margin: 0; padding: 0; font-family: 'Inter', sans-serif, 'Playfair Display', serif;}
+
+#base {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #fff;
+}
+
+.root {
+  width: 390px;
+  height: 844px;
+
+  background-color: #c3c3c3;
+}
+
+header {
+  width: inherit;
+  height: 9%;
+
+  background-color: #0B9E9E;
+}
+
+header > div {
+  width: 92%;
+  height: 68%;
+
+  /* border: 1px solid sandybrown; */
+}
+
+header > div > div {
+  width: 14%;
+  height: 100%;
+
+  /* background-color: rgb(255, 83, 83); */
+}
+
+header > div > div > span {
+  color: #fff;
+}
+
+
+.search-bar {
+  width: inherit;
+  height: 15%;
+
+  background-color: #B5DDDD;
+}
+
+.search-bar > div {
+  width: 90%;
+  height: 44%;
+
+  background-color: #f0f0f0;
+
+  border-radius: 10px;
+}
+
+.search-bar > div > div:nth-child(1) {
+  width: 84%;
+  height: 90%;
+
+  /* border: 1px solid #6b68ff; */
+}
+
+.search-bar > div > div:nth-child(2) {
+  width: 14%;
+  height: 90%;
+  /* border: 1px solid #ff85db; */
+}
+
+main {
+  width: inherit;
+  height: 78%;
+
+  background-color: #f0f0f0;
+}
+
+.top {
+  width: inherit;
+  height: 20%;
+
+  /* border: 1px solid salmon; */
+
+  position: relative;
+  overflow: hidden;
+}
+
+.top > ul {
+  width: 600%;
+  height: 60%;
+
+  /* background-color: #ff85db; */
+
+  position: absolute;
+  left: 30px;
+}
+
+.top > ul > li {
+  list-style: none;
+
+  width: 64px;
+  height: 64px;
+
+  background-color: #B5DDDD;
+  border-radius: 100px;
+
+  margin-right: 20px;
+}
+
+.top > ul > li > div {
+  font-size: 20px;
+}
+
+
+.bottom {
+  width: 100%;
+  height: 80%;
+
+  /* border: 1px solid red; */
+  position: relative;
+  overflow: hidden;
+}
+
+.bottom > ul {
+  width: 100%;
+  height: 400%;
+
+  position: absolute;
+  left: -2px;
+  /* background-color: #98ff68; */
+}
+
+.bottom > ul > li {
+  width: 392px;
+  height: 160px;
+
+  /* background-color: #85e3ff; */
+  border: 1px solid #464646;
+
+  list-style: none;
+}
+
+.out-line {
+  width: 94%;
+  height: 80%;
+
+  /* border: 1px solid #98ff68; */
+}
+
+.out-line > div:nth-child(1) {
+  width: 38%;
+  height: 100%;
+
+  /* background-color: #ff85db; */
+  border: 1px solid #292F2E;
+}
+
+.out-line > div:nth-child(2) {
+  width: 58%;
+  height: 100%;
+
+  /* border: 1px solid #0f792e; */
+}
+
+.text-1 {
+  width: 100%;
+  height: 30%;
+
+  /* background-color: #ff85db; */
+
+  font-size: 24px;
+  color: #04A3A8;
+  font-weight: 400;
+}
+
+.text-2 {
+  width: 100%;
+  height: 24%;
+
+  /* background-color: #aa85ff; */
+  font-size: 14px;
+}
+
+.text-3 {
+  width: 100%;
+  height: 46%;
+
+  /* background-color: #85ffa0; */
+}
+
+.text-3 > div:nth-child(1) {
+  width: 74%;
+  height: 40%;
+
+  /* background-color: #0f792e; */
+
+  font-size: 14px;
+  color: #808080;
+}
+
+.text-3 > div:nth-child(2) {
+  width: 24%;
+  height: 86%;
+
+  border-radius: 5px;
+  font-size: 24px;
+  color: #f1f1f1
+}
+
+.yes-kid {
+  background-color: var(--color-yes);
+}
+
+.not-kid { 
+  background-color: var(--color-not);
+}
