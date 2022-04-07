@@ -35,6 +35,6 @@
 }
 
 .button > div > p {
-  font-size: var( --font-M);
+  font-size: 1em;
   color: var(--color-text-1);
 }
