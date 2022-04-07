@@ -97,9 +97,9 @@
 
 .slide-y > ul > li {
   width: 100%;
-  height: 7.5%;
+  height: 10em;
 
-  /* background-color: #85e3ff; */
+  background-color: var(--color-1);
   border: 1px solid #464646;
 
   list-style: none;
