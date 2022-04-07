@@ -58,6 +58,12 @@
   border: 1px solid sandybrown;
 }
 
+.menu > div > div:nth-child(2) > p {
+  font-size: var(--font-L);
+  color: var(--color-text-3);
+}
+
+
 .menu > div > div:nth-child(3) {
   width: 15%;
   height: 100%;
