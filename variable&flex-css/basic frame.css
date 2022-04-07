@@ -76,3 +76,13 @@ hr {
 
   color: var(--color-5);
 }
+
+i {
+  font-size: var(--font-L);
+  color: var(--color-text-3);
+  font-family: 'Font Awesome 5 Free','Font Awesome 5 Brands';
+}
+
+.fa,.fab,.fad,.fal,.far,.fas{
+	font-weight: 900 !important;
+	}
